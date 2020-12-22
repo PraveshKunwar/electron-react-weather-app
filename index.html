@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="favicon" href="weather.jpg" />
+    <title>Weather App - Electron</title>
+  </head>
+  <body>
+    <h1
+      class="animate__animated animate__fadeIn animate__delay-1s"
+      id="main-header"
+    >
+      Weather App
+    </h1>
+    <div class="weather animate__animated animate__fadeIn animate__delay-2s">
+      <input
+        type="text"
+        placeholder="Search by City or Zipcode"
+        id="search-bar"
+        onkeydown="getValue(this)"
+      />
+    </div>
+    <script src="functions.js"></script>
+  </body>
+</html>

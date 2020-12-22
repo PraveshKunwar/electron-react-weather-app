@@ -1,0 +1,27 @@
+{
+  "name": "electron-weather-app",
+  "version": "1.0.0",
+  "description": "An electron based weather app.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon start",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PraveshKunwar/electron-weather-app.git"
+  },
+  "author": "Pravesh Kunwar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PraveshKunwar/electron-weather-app/issues"
+  },
+  "homepage": "https://github.com/PraveshKunwar/electron-weather-app#readme",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}
