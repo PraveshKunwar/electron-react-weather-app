@@ -28,8 +28,11 @@
   </head>
   <body>
     <h1
-      class="animate__animated animate__fadeIn animate__delay-1s"
+      class=""
       id="main-header"
+      animate__animated
+      animate__fadeIn
+      animate__delay-1s
     >
       Weather App
     </h1>
@@ -38,8 +41,19 @@
         type="text"
         placeholder="Search by City or Zipcode"
         id="search-bar"
-        onkeydown="getValue(this)"
       />
+    </div>
+    <div class="results">
+      <h2 id="location"></h2>
+      <div
+        class="results-box animate__animated animate__fadeIn animate__delay-3s"
+      >
+        <div class="box-data">
+          <p id="replace">Please enter a location to start!</p>
+          <img id="icon" src="weather.jpg" />
+          <p id="results"></p>
+        </div>
+      </div>
     </div>
     <script src="functions.js"></script>
   </body>
